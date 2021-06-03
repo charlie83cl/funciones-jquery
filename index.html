@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones JQuery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+<style>
+    .colordefondo{
+        background-color: blue;
+        text-align: center;
+    }
+</style>
+    
+<script>
+    $(document).ready(function(){
+        $('#boton1').click(function(){
+            $(this).addClass('colordefondo');
+       
+        });
+        $('#boton2').click(function(){
+            $(this).slideToggle(1000)
+            $(this).slideDown(1000) 
+        });
+        $('#boton3').click(function(){
+            $(this).append("el conocimiento es poder")
+        });
+        $('#boton4').click(function(){
+            $('p',this).text("jkljdhdsklhdsfjkdhfkjalhfjkdshfjksdhafdshfkjlk")
+        });
+        $('#boton5').click(function(){
+            $("div.demo-html").html("FUNCIONA AQUI EN LA PARTE SUPERIOR DE LA PAGINA HAY QUE ENTENDER ALGO MAS TALVES");
+        });
+        $('#boton6').click(function(){
+            
+        });
+    });
+
+
+    
+
+        
+    
+
+</script>
+
+
+</head>
+<body>
+    <img src="/img/python.png" data-alt-src="img/goku0.jfif">
+    <div class="demo-html">
+        <div class="demo-cajita">"asdhashdskajhdjahdjashdjashjdah"</div>
+    </div>
+    
+    <div id="boton1">
+        <button>AddClass</button>
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dignissimos minus error hic nemo possimus omnis? Dolor nobis explicabo dolores? Unde at aut cum doloribus.</p>
+    </div>
+    <div id="boton2">
+        <button>SlideToggle</button>
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dignissimos minus error hic nemo possimus omnis? Dolor nobis explicabo dolores? Unde at aut cum doloribus.</p>
+    </div>
+    <div id="boton3">
+        <button>Append</button>
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dignissimos minus error hic nemo possimus omnis? Dolor nobis explicabo dolores? Unde at aut cum doloribus.</p>
+    </div>
+    <div id="boton4">
+        <button>BOTON4</button>
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dignissimos minus error hic nemo possimus omnis? Dolor nobis explicabo dolores? Unde at aut cum doloribus.</p>
+    </div>
+    <div id="boton5">
+        <button>BOTON5</button>
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dignissimos minus error hic nemo possimus omnis? Dolor nobis explicabo dolores? Unde at aut cum doloribus.</p>
+    </div>
+    <div id="boton6">
+        <button>BOTON6</button>
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dignissimos minus error hic nemo possimus omnis? Dolor nobis explicabo dolores? Unde at aut cum doloribus.</p>
+    </div>
+
+
+    
+</body>
+</html>
